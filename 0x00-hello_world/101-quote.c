@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * Return: (1)
  */
 
