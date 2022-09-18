@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - entery point 
+ * main - entery point
  * Return: 0
- * Descripyion: output a string 
+ * Descripyion: output a string
  */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
