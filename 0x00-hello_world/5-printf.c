@@ -1,4 +1,4 @@
-#include <stdoi.h>
+#include <stdio.h>
 
 /**
  * main - entery point 
