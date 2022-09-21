@@ -1,23 +1,35 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* _strcpy - Copy paste string
-* @dest: destination
-* @src: source
-*
-* Return: destination
-*/
+ * puts_half - prints a string
+ * @str: string to print
+ *
+ * Return: nothing
+ */
 
-char *_strcpy(char *dest, char *src)
+void puts_half(char *str)
 {
-	int inc = 0;
+	int i, len = _strlen(str);
 
-	while (*(src + inc) != '\0')
-	{
-		*(dest + inc) = *(src + inc);
-		inc++;
-	}
-	*(dest + inc) = '\0';
+	for (i = ((len - 1) / 2) + 1; i < len; i++)
+		putchar(*(str + i));
+	putchar(10);
+}
 
-	return (dest);
+/**
+ * _strlen - returns the length of a string
+ * @s: string
+ *
+ * Return: the length of the given string
+ */
+
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
 }
