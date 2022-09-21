@@ -10,6 +10,7 @@
 */
 
 int main(void)
+{
 	int random=0,c=0;
 	time_t t;
 	srand((umsigned int) time(&t));
