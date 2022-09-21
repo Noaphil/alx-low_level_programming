@@ -10,18 +10,19 @@
 */
 
 int main(void)
-{
-	char c;
-	int x;
-
-	srand(time(0));
-	while (x <= 2645)
+	int random=0,c=0;
+	time_t t;
+	srand((umsigned int) time(&t));
+	while (c < 2772)
 	{
-		c = rand() % 128;
-		x += c;
-		putchar(c);
+		random = rand() %128;
+		if ((c+random) > 2772)
+			break;
+		c = c + random;
+		printf("%c", random);
+
 	}
-	putchar(2772 - x);
+	printf("%c\n",( 2772 - c));
 
 	return (0);
 }
