@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * mul - checks for lower case character
  * @a: parameter a
  * @b: parameter b
@@ -12,3 +11,4 @@ int mul(int a, int b)
 {
 	return (a * b);
 }
+
