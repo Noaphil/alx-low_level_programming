@@ -32,7 +32,6 @@ int main(void)
 						putchar(k + 48);
 						putchar(l + 48);
 						if (i + j + l + k != 9 + 8 + 7 + 6)
-
 						{
 							putchar(',');
 							putchar(' ');
