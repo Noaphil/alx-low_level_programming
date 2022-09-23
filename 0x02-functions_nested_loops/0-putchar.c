@@ -1,23 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 
- /**
-  * main - Program entry point
-  *
-  * escription: program prints _putchar
-  *
-  * * Return: 0 (success)
-  */
+/**
+ * print_alphabet - function prints alphabet
+ *
+ * Description: Program prints alphabet
+ *
+ *
+ * Return: 0 (success)
+ */
 
-int main(void)
+void print_alphabet(void)
 {
-	char *string = "_putchar";
+	char letter = 'a';
 
-	int i;
-
-	for (i = 0; i < 8; i++)
+	while (letter <= 'z')
 	{
-		_putchar(string[i]);
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
-	return (0);
+
 }
