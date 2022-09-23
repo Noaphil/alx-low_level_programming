@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * main - Program entry point
  * Description: program prints _putchar
  *
