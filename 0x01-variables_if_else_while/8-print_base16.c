@@ -10,7 +10,7 @@ int main(void)
 {
 	char alphabet = 'a';
 	int digit = 0;
-	
+
 	while (digit < 10)
 	{
 		putchar(digit + 48);
