@@ -7,7 +7,7 @@
  * isNum - check if string array is num
  * @num: string to check
  * Return: 0 if it's a number
- * 	   1 if it's not a number
+ *         1 if it's not a number
  */
 
 int isNum(char num[])
@@ -19,7 +19,7 @@ int isNum(char num[])
 		if (!isdigit(num[i]))
 			return (1);
 	}
-	return (0)
+	return (0);
 }
 
 
