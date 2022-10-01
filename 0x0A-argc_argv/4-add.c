@@ -7,7 +7,7 @@
  * isNum - check if string array is num
  * @num: string to check
  * Return: 0 if it's a number
- * 	1 if it's not a number
+ * 	   1 if it's not a number
  */
 
 int isNum(char num[])
@@ -21,6 +21,7 @@ int isNum(char num[])
 	}
 	return (0)
 }
+
 
 /**
  * main - a program that adds positive numbers
@@ -57,4 +58,4 @@ int main(int argc, char *argv[])
 		printf("%d\n", sum);
 	}
 	return (0);
-	;
+}
