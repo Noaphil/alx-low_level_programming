@@ -23,7 +23,7 @@ unsigned int i, j, k, limit;
 
 	for (j = 0; s2[j] != '\0'; j++)
 		;
-	
+
 	strout = malloc(sizeof(char) * (i + j + 1));
 
 	if (strout == NULL)
