@@ -1,4 +1,4 @@
-#include "lists.h"
+nclude "lists.h"
 /**
  * get_nodeint_at_index - returns the node at a certain index in a linked list
  * @head: pointer to the first node in the linked list
@@ -16,5 +16,4 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		i++;
 	}
 	return (temp ? temp : NULL);
-
 }
